@@ -5,5 +5,5 @@ import cen4270.models.User;
 
 public interface Account {
     public void registerUser(User user) throws RegisterUserException;
-    public User getRegisteredUser(String email);
+    public User getRegisteredUser(String email);;
 }
