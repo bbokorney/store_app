@@ -77,11 +77,11 @@ public class PurchaseService {
                 throw new PurchaseException("Region is not supported");
         }
 
-        totalPrice += shippingCost + tax;
+        totalPrice += tax;
 
-        if(user.isPremiumUser()) {
+        if(!user.isPremiumUser()) {
             // Apply discount to premium users
-            totalPrice -= 2;
+            totalPrice += shippingCost;
         }
 
         return totalPrice;
