@@ -18,6 +18,8 @@ public class AccountService implements Account {
         this.users = new LinkedList<User>();
     }
 
+    public ()
+
     /**
      * Register a user account
      * @param user The user account to register
