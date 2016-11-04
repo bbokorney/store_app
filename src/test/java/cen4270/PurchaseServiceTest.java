@@ -32,7 +32,7 @@ public class PurchaseServiceTest {
 
         // Assert
         Assert.assertEquals(getCreditCard(), bankMock.getCreditCard());
-        Assert.assertEquals(10, bankMock.getAmount());
+        Assert.assertEquals(5, bankMock.getAmount());
     }
 
     @Test
@@ -54,7 +54,7 @@ public class PurchaseServiceTest {
         Assert.assertEquals(getUser().getEmail(), notificationMock.getEmail().getTo());
     }
 
-    private CreditCard getCreditCard() {
+      private CreditCard getCreditCard() {
         return new CreditCard("1234567891234567", new Date(1602271292000l));
     }
 
