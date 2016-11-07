@@ -32,7 +32,7 @@ public class PurchaseServiceTest {
 
         // Assert
         Assert.assertEquals(getCreditCard(), bankMock.getCreditCard());
-        Assert.assertEquals(10, bankMock.getAmount());
+        Assert.assertEquals(5, bankMock.getAmount());
     }
 
     @Test
