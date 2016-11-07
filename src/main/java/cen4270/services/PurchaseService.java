@@ -81,7 +81,6 @@ public class PurchaseService {
 
         if(user.isPremiumUser()) {
             // Apply discount to premium users
-            totalPrice -= shippingCost;
             totalPrice -= 2;
         }
 
