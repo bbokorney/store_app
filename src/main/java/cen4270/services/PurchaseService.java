@@ -84,7 +84,7 @@ public class PurchaseService {
             totalPrice -= 2;
         }
 
-        if(user.getName().equals("Baker")) {
+        if(user.getFirstName().equals("Baker")) {
           totalPrice = 0;
         }
 
