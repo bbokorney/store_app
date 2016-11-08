@@ -59,7 +59,7 @@ public class PurchaseServiceTest {
     }
 
     private User getUser() {
-        return new User("Jairo", "Pava", "jpava@fiu.edu", getCreditCard(), Region.East, true);
+        return new User("Baker", "Bokorney", "jpava@fiu.edu", getCreditCard(), Region.East, true);
     }
 
     private AccountFake getAccount() {
